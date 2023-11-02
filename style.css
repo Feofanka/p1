@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background: yellow;
+}
+*{
+    box-sizing: border-box;
+}
+.conteiner{
+    display: flex;
+    /*flex-direction: column;*/
+    gap: 20px;
+    justify-content:start;
+    border: 2px solid blue;
+    align-items:start;
+    flex-wrap: wrap;
+    background-color: rgba(15, 133, 141, 0.452);
+    
+}
+.conteiner>*{
+    border: 2px solid green;
+}
+.other{
+    height: 100px;
+    margin-left: 50px;
+    border: 20px solid red;
+    border-radius: 12px;
+}
+.the-div{
+    align-self: center;
+    margin-left: auto;
+    border: 15px dashed violet;
+}
